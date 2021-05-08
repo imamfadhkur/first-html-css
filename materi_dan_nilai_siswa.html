@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Materi dan Nilai siswa</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style=" font-family: arial; background-image: url(image/background1.jpg);background-size: 100% 100%;background-attachment:fixed;">
+
+<img class="imageheader" src="image/header.png" alt="ini header">
+
+<div class="navbar">
+  <a href="halaman_utama_kedua.html">Depan</a> 
+  <a href="apa_yang_jatuh_tempo.html">Jatuh Tempo</a>
+  <a class="active" href="materi_dan_nilai_siswa+komentar.html">perpustakaan</a>
+  <a href="pesan_pribadi.html">Pesan</a>
+  <a href="download_jawaban_siswa_semua.html">Notifikasi</a>
+  <a style="border-right: 1px solid white;" href="bantuan.html">Bantuan</a>
+  <a style="float: right; border-right: 1px solid white;" href="login.html">Keluar</a>
+</div>
+
+<div class="halaman">
+<div class="namakelas_bawahmenu">
+  <select style="border-right: 1px solid black;" class="option_mns" id="kelas">
+    <option value="1"><b>STRUKTUR DATA</b></option>
+    <option value="2"><b>DASAR PEMROGRAMAN WEB</b></option>
+  </select>
+  <select class="option_mns" id="materi">
+    <option value="1"><b>Linear Search and Binary Search</b></option>
+  </select>
+</div>
+<div class="center_ns">
+  <h3>Linear Search dan Binary Search</h3>
+  <img class="img1" src="image/linear_dan_binary.gif">
+  <p>
+    <blockquote><b>Linear Search</b></blockquote>
+    &emsp;&emsp;&emsp;Linear Search atau sequential search adalah sebuah metode pencarian data dengan cara membandingkan nilai yang dicari dengan nilai dari setiap elemen list, mulai dari elemen pertama (indeks = 0) sampai nilai yang dicari ditemukan atau sampai elemen terakhir (indeks - n). Untuk lebih jelasnya perhatikan gambar animasi di bawah ini.<br><img src="image/linear_search.gif">
+  </p>
+  <p>
+    &emsp;&emsp;&emsp;Misalnya kita memiliki sebuah list, anggap saja list a. Di dalam list itu terdapat beberapa elemen yang terdiri dari beberapa angka acak. Katakanlah 8,5,7,9,2. Kita ingin mencari sebuah angka dari dalam list tersebut, misalnya angka 7. Dan juga kita bisa juga sekaligus mendapatkan informasi pada indeks ke-berapa letak angka tersebut berada, berapa kali iterasinya (proses perulangan saat mencari data tersebut). Bagaimana caranya untuk mengimplementasikannya ke dalam bahasa pemrograman seperti python? Yuk kita simak baik-baik.<br><br><img src="image/code_linear_search.png">
+  </p>
+  <p>
+    &emsp;&emsp;&emsp;Pada contoh di atas, mula-mula kita pastikan posisi awal pencarian berada pada posisi 0 atau pencarian dimulai dari indeks 0. Dan menentukan batas akhir pencarian tersebut dengan len(a) - 1. Metode linear search di atas akan mengembalikan nilai True jika nilai yang dicari ditemukan di dalam list dan False jika tidak ditemukan. Tambahkan pengkondisian untuk memastikan agar proses pencarian dilakukan, jika ditemukan ia akan berhenti, dan jika tidak ditemukan ia akan terus mencari hingga seluruh indeks habis diperiksa. Untuk mengetahui letak indeks angka yang kita cari dan berapa jumlah iterasi yang dilakukan tinggal tambahkan saja iterasi = 0 dan masukan iterasi +=1 di dalam proses looping dan print(posisi) untuk mengetahui letak posisi indeksnya, print(iterasi) untuk mengetahui jumlah iterasinya.<br><br><img src="image/iterasi_linear.png">
+  </p>
+  <p>
+    &emsp;&emsp;&emsp;Setelah kita run maka angka 7 yang kita cari terletak pada indeks ke-2 dengan iterasi sebanyak 3 kali. Bagaimana? Mudah bukan? jika ada pertanyaan silahkan langsung berkomentar. Silahkan dicoba dengan mengganti elemen list sesuai dengan keinginan hati kalian atau mungkin ada juga yang penasaran bagaimana list tersebut diisikan dengan data string? Selamat mencoba.<br>
+  </p>
+  <blockquote><b>Binary Search</b></blockquote>
+  <p>
+    &emsp;&emsp;&emsp;Selanjutnya kita akan membahas binary search. Binary Search merupakan metode pencarian data dengan membagi 2 atau pencarian dimulai dari indeks list bagian tengah, lalu membandingkannya. Jika bertemu dengan angka yang lebih kecil dari pada yang dicari, maka langsung dibuangnya, begitu seterusnya hingga nilai yang dicari (==) cocok. Untuk lebih jelasnya, perhatikan gambar animasi di bawah ini.<br><br><img src="image/binary_search.gif">
+  </p>
+  <p>
+     &emsp;&emsp;&emsp;Perlu diketahui, data list pada binary search sangatlah mengharuskan urut terlebih dahulu sebelum memulai proses pencarian. Secara logaritmik pencarian binary lebih cepat dibandingkan linear search karena dapat mereduksi jumlah elemen yang dicari sehingga iterasi yang dihasilkannya lebih sedikit. Implementasinya ke dalam python :<br><br><img src="image/code_binary_search.png">
+  </p>
+</div>
+
+<span>
+<span class="sidebar_ns">
+    <h3>Tugas!</h3><hr style="border-width: 2px; border-color: #0086fc;">
+  <p>
+    &emsp;Buatlah list yang isinya 3 digit NIM terakhir dari seluruh mahasiswa di kelas struktur data 2E.<br><ul><li>Buat listnya terurut dari kecil ke besar</li><li>Apabila ada data yang sama, maka data kedua dari yang sama tersebut ditambah satu hingga tidak ada data yang sama</li><li>lakukan pencarian data dengan data yang dicari adalah 3 digit NIM terakhir kalian masing-masing.</li></ul>
+  </p>
+  Kumpulkan tugas dalam bentuk rar, beri nama dan NIM masing-masing. Upload di edmodo.
+</span>
+<span class="sidebar_ns">
+    <h3>Nilai siswa</h3><hr style="border-width: 2px; border-color: #0086fc;">
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Nama</th>
+        <th>Nilai</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>M. Tajul Arifin</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Daud Kresna Dwifa</td>
+        <td>97</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Ega Herdianti Satria</td>
+        <td>97</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Imam Fadhkur Rokhim</td>
+        <td>97</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>M. Khoirur Roziqi</td>
+        <td>97</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Moh. Zidni Nuron</td>
+        <td>97</td>
+      </tr>
+    </table>
+</span>
+<span class="slink_ns"><a href="download_jawaban_siswa_semua.html" class="a_ns">&emsp;&nbsp;&nbsp;&nbsp;Lihat Semua Peserta Kelas&nbsp;&nbsp;&emsp;</a></span>
+<span class="slink_ns"><a href="upload_materi&tugas.html" class="a_ns">&emsp;&nbsp;&nbsp;Buat Tugas dan Materi baru!&nbsp;&emsp;</a></span>
+</span>
+
+<footer>
+    <span class="link_footer"><a href="#link" class="about">• About</a></span>
+    <span class="link_footer"><a href="#link" class="contact">• Contact Us</a></span>
+    <span class="link_footer"><a href="#link" class="it-admins">• IT Admins</a></span>
+    <span class="link_footer"><a href="#link" class="support">• Support</a></span><br>
+    <span class="link_footer"><a href="#link" class="privacy-policy">• Privacy</a></span>
+    <span class="link_footer"><a href="#link" class="terms-of-service">• Language</a></span><br><br>
+    <span class="link_footer"><a href="#link" class="terms-of-service">© E-Learning Inovatif 2019</a></span>
+
+</footer>
+
+</div>
+</body>
+</html>

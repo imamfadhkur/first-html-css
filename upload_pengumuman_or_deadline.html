@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>upload pengumuman atau deadline</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url(image/background1.jpg);background-size: 100% 100%;background-attachment:fixed; font-family: arial">
+
+<img class="imageheader" src="image/header.png" alt="ini header">
+
+<div class="navbar">
+  <a href="halaman_utama_kedua.html">Depan</a> 
+  <a href="apa_yang_jatuh_tempo.html">Jatuh Tempo</a>
+  <a class="active" href="#">perpustakaan</a>
+  <a href="pesan_pribadi.html">Pesan</a>
+  <a href="download_jawaban_siswa.html">Notifikasi</a>
+  <a style="border-right: 1px solid white;" href="bantuan.html">Bantuan</a>
+  <a style="float: right; border-right: 1px solid white;" href="login.html">Keluar</a>
+</div>
+
+<span class="halaman">
+  <div class="left">
+
+  	<fieldset class="fieldset1"> <img class="profil_um" src="image/profil.png">
+    </fieldset>
+  	<fieldset style="margin-bottom: 15px;" class="fieldset2"><br>Imam Fatih<br>Guru<br><br>High School in Magetan<br>
+  		<a href="profil.html"><br> lengkapi profil anda!</a><br>33% Lengkap
+    </fieldset>
+
+    <fieldset class="sidebarkiri2_um">
+      <font style="font-size: 30px;"><b> Your Class</b><hr></font>
+      <ol class="ola_um">
+        <a style="text-decoration: none;" href="materi_dan_nilai_siswa.html"><li>Struktir Data</li></a>
+        <a style="text-decoration: none;" href="materi_dan_nilai_siswa.html"><li>Dasar Pemrograman Web</li></a>
+      </ol>
+      <a class="button_sidebarkiri2_um" href="membuka_perkuliahan.html"> kelas baru</a>
+    </fieldset>
+
+  </div>
+  
+<div class="center_upod">
+
+  <h2>Upload pengumuman Yuk..</h2><hr>
+  <form method="post" action="data.php">  
+      <b>upload pengumuman ke kelas:</b><br><br>
+      <input type="checkbox" name="SD" value="SD">Struktur Data<br>
+      <input type="checkbox" name="DPW" value="DPW">Dasar Pemrograman Web<br><br><br>
+      <b>Buat pengumuman anda:</b><br><br><textarea></textarea><br><br><br>
+      <b>di jatuh tempo kan pada:</b><br><br>
+      <div style="margin-left: 15px;">
+      jam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="time" name="waktu_deadline"><br>
+      tanggal : <input type="date" name="tgl_deadline"><br>
+    </div>
+      <span><i>*isi tanggal dan waktu diatas, agar kami dapat mengingatkan anda dan siswa anda.</i></span><br><br><br><br>
+      <input type="submit" name="submit" value="kirim" class="submit_upod">
+  </form>
+
+  </div>
+<footer>
+  
+    <span class="link_footer"><a href="#link" class="about">• About</a></span>
+    <span class="link_footer"><a href="#link" class="contact">• Contact Us</a></span>
+    <span class="link_footer"><a href="#link" class="it-admins">• IT Admins</a></span>
+    <span class="link_footer"><a href="#link" class="support">• Support</a></span><br>
+    <span class="link_footer"><a href="#link" class="privacy-policy">• Privacy</a></span>
+    <span class="link_footer"><a href="#link" class="terms-of-service">• Language</a></span><br><br>
+    <span class="link_footer"><a href="#link" class="terms-of-service">© E-Learning Inovatif 2019</a></span>
+
+</footer>
+
+</span>
+</body>
+</html>

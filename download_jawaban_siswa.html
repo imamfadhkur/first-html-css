@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jawaban siswa</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url(image/background1.jpg);background-size: 100% 100%;background-attachment:fixed; font-family: arial;">
+
+<img class="imageheader" src="image/header.png" alt="ini header">
+
+<div class="navbar">
+  <a href="halaman_utama_kedua.html">Depan</a> 
+  <a href="apa_yang_jatuh_tempo.html">Jatuh Tempo</a>
+  <a href="materi_dan_nilai_siswa.html">perpustakaan</a>
+  <a href="pesan_pribadi.html">Pesan</a>
+  <a class="active" href="download_jawaban_siswa.html">Notifikasi<b> (6)</b></a>
+  <a style="border-right: 1px solid white;" href="bantuan.html">Bantuan</a>
+  <a style="float: right; border-right: 1px solid white;" href="login.html">Keluar</a>
+</div>
+
+<span class="halaman">
+
+<div class="center_djs">
+  <fieldset class="fieldset1_djs">
+    <span class="span1_djs"><center><b>Struktur Data<hr></b></center></span>
+    <br>
+    <a class="active_djs tedec" href="download_jawaban_siswa.html">menyerahkan</a>
+    <a class="nonactive_djs tedec" href="download_jawaban_siswa_semua.html">semua siswa</a>
+  </fieldset>
+  <fieldset class="fieldset2_djs">
+    
+    <span><br><br>
+      <select class="option_djs" onChange="document.location.href=this.options[this.selectedIndex].value;">
+        <option value="#link_tugas">Tugas 1</option>
+        <option value="https://blogger.com">Tugas 2</option>
+        <option value="#link_tugas">Tugas 3</option>
+      </select>
+      <br><br><i>Ditugaskan pada 21.30 3/8/2019 sampai 23.59 6/8/2019</i></span><br>
+    <form method="get" action="materi_dan_nilai_siswa+komentar.html#nilai"><hr><br>
+    <table>
+      <tr>
+        <th>No.</th><th>Nama</th><th>Deskripsi</th><th>File</th><th>Waktu</th><th class="panjangnilai">Nilai</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Moh Zidni Nuron</td>
+        <td class="panjangtd_djs">Assalamu'alaikum wr.wb.<br>Saya Moh Zidni Nuron NIM 180411100030 ingin mengumpulkan tugas pertama.<br>Terimakasih,<br>Wassalamu'alaikum wr.wb.</td>
+        <td><a class="tedec" href="#">180411100030_MohZidniNuron_TUGAS1_SD.rar</a></td>
+        <td>03.42 5/8/2019</td>
+        <td><textarea id="nilai_zidni" class="nilai_djs"></textarea></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ega Herdianti Satria</td>
+        <td class="panjangtd_djs">Assalamu'alaikum wr.wb.<br>Saya Ega herdianti S. NIM 180411100063 ingin mengumpulkan tugas.<br>Terimakasih,<br>Wassalamu'alaikum wr.wb.</td>
+        <td><a class="tedec" href="#">180411100063_EgaHerdiantiSatria_TUGAS1_SD.rar</a></td>
+        <td>08.42 5/8/2019</td>
+        <td><textarea id="nilai_ega" class="nilai_djs"></textarea></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Imam Fadhkur Rokhim</td>
+        <td class="panjangtd_djs">Assalamu'alaikum warahmatullahi wabarakatuhu<br>Selamat Pagi,<br>Saya Imam Fadhkur Rokhim NIM 180411100001 ingin mengumpulkan tugas untuk materi Linear Search dan Binary Search.<br>Terimakasih,<br>Wassalamu'alaikum warahmatullahi wabarakatuhu</td>
+        <td><a class="tedec" href="#">180411100001_ImamFadhkurRokhim_TUGAS1_SD.rar</a></td>
+        <td>08.59 5/8/2019</td>
+        <td><textarea id="nilai_imam" class="nilai_djs"></textarea></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>M. Khairur Roziqi</td>
+        <td class="panjangtd_djs">Assalamu'alaikum wr.wb.<br>Saya M. Khairur Raziqi NIM 180411100128 ingin mengumpulkan tugas untuk materi Linear Search dan Binary Search.<br>Wassalamu'alaikum wr.wb.</td>
+        <td><a class="tedec" href="#">180411100001_ImamFadhkurRokhim_TUGAS1_SD.rar</a></td>
+        <td>20.59 5/8/2019</td>
+        <td><textarea id="nilai_kiki" class="nilai_djs"></textarea></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Daud Kresna Dwifa</td>
+        <td class="panjangtd_djs">Selamat Pagi,<br>Saya Daud Kresna Dwifa NIM 180411100061 ingin mengumpulkan tugas untuk materi Linear Search dan Binary Search,<br>Terimakasih.</td>
+        <td><a class="tedec" href="#">180411100001_ImamFadhkurRokhim_TUGAS1_SD.rar</a></td>
+        <td>22.59 5/8/2019</td>
+        <td><textarea id="nilai_daud" class="nilai_djs"></textarea></td>
+      </tr>
+    </table><br>
+    <input type="submit" name="submit" value="simpan" class="submit_djs"><br><br><hr>
+  </form>
+  </fieldset>
+</div>
+
+<footer>
+    <span class="link_footer"><a href="#link" class="about">• About</a></span>
+    <span class="link_footer"><a href="#link" class="contact">• Contact Us</a></span>
+    <span class="link_footer"><a href="#link" class="it-admins">• IT Admins</a></span>
+    <span class="link_footer"><a href="#link" class="support">• Support</a></span><br>
+    <span class="link_footer"><a href="#link" class="privacy-policy">• Privacy</a></span>
+    <span class="link_footer"><a href="#link" class="terms-of-service">• Language</a></span><br><br>
+    <span class="link_footer"><a href="#link" class="terms-of-service">© E-Learning Inovatif 2019</a></span>
+
+</footer>
+
+</span>
+</body>
+</html>

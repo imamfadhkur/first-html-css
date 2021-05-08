@@ -1,0 +1,46 @@
+			         		--- REVISI ---
+TUGAS DOSEN
+	- posting data materi
+	- lihat peserta kelas yang diajar
+	- monitoring absen
+	- membuka perkuliahan
+	- membuat tugas
+	- menjawab komentar
+	- memberi nilai
+	- manajemen password
+	- stop perkuliahan
+
+MENJADI -->
+
+''' 
+1. foto profil Vebry Sukma Ningrum
+2. inspect element model percakapan di edmodo
+3. logo yang dperlukan -->
+'+(untuk menambah pesan)', logo kirim pesan (pada halm. pesan)
+'kaca pembesar', untuk melakukan pencarian pada halm. hubungkan guru
+'''
+
+TUGAS DOSEN
+	- membuka perkuliahan (membuat kelas)
+
+	- manajemen kelas 				( di sidebar kiri bawah)
+		    --- daftar dropdown ---
+		+ rubah nama kelas,
+		+ password kelas (sama seperti kode edmodo)
+		+ peserta(sekaligus profil),
+		+ hapus kelas
+
+	- halaman utama(main utama)
+		+ materi & tugas yg sdh diupload (layout materi 75%, 25% atas tugas bwh nilai), (di dashboard perpustakaan)
+		+ upload file materi dan tugas,		(di dashboard perpustakaan)
+		+ manajemen pengumuman(note)			 (buat pengumuman di dashboard jatuh tempo)
+		+ manajemen nilai mhs (download jawaban  mhs, upload nilai secara personal ke jawaban mhs) 	(di dashboard notif)
+
+	- manajemen diskusi(messages, menjawab komentar pada materi & tugas) 		(di dashboard pesan)
+
+membuat halaman tambahan -->
+1. bantuan.html          Done
+2. profil.html           Done
+3. hubungkan_guru.html   Done
+4. profil_vebry.html
+5.

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>pesan</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url(image/background1.jpg);background-size: 100% 100%; background-attachment:fixed; font-family: arial">
+
+<img class="imageheader" src="image/header.png" alt="ini header">
+
+<div class="navbar">
+  <a href="halaman_utama_kedua.html">Depan</a> 
+  <a href="apa_yang_jatuh_tempo.html">Jatuh Tempo</a>
+  <a href="materi_dan_nilai_siswa.html">perpustakaan</a>
+  <a class="active" href="pesan_pribadi.html">Pesan</a>
+  <a href="download_jawaban_siswa.html">Notifikasi</a>
+  <a style="border-right: 1px solid white;" href="bantuan.html">Bantuan</a>
+  <a style="float: right; border-right: 1px solid white;" href="login.html">Keluar</a>
+</div>
+
+<span class="halaman">
+
+<table class="table_pp">
+  <tr>
+    <td style="border: 1px solid silver; padding: 5px 5px 1px 5px;">Pesan</td>
+    <td style="border: 1px solid silver; padding: 5px 5px 1px 5px;"><b>Kirim ke: </b>
+      <select class="kirim_pp" id="kirim_ke">
+        <option value="1">M. Tajul Arifin</option>
+        <option value="2">Imam Fadhkur Rokhim</option>
+        <option value="3">Vebry Sukma Ningrum</option>
+        <option value="4">Dika Nur Fadila</option>
+        <option value="5">Moh Zidni Nuron</option>
+        <option value="6">Ega Herdianti Satria</option>
+        <option value="7">M. Khairur Roziqi</option>
+        <option value="8">Daud Kresna Dwifa</option>
+        <option value="9">Candra Aprilia</option>
+        <option value="10">Devi Nur Maharani</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid silver;">
+     
+        <div class="sub_pesan_pp"><a href="pesan_pribadi.html">Buat pesan baru</a></div>
+        <div class="sub_pesan_pp"><a href="pesan_pribadi_imam.html"><img class="img_profil" src="image/imam.jpg">Imam Fadhkur Rokhim</a></div>
+        <div style="margin-bottom: 415px" class="sub_pesan_pp"><a href="pesan_vebry.html"><img class="img_profil" src="image/vebry.JPG">Vebry Sukma Ningrum</a></div>
+      
+    </td>
+    <td style="border: 1px solid silver; padding: 5px 5px 1px 5px;">
+      <div>
+  <form method="get" action="data.php">
+    <textarea style="width: 99%; height: 80px;background-color: #eeeeee; margin: 420px 1px 0px 1px;" id="coment" class="coment" placeholder="Tulis Pesan..." required="required"></textarea>
+    <br>
+    <input class="submit_huk" style="margin-left: 680px; width: 130px; height: 40px" type="submit" onclick="" value="kirim"/>
+  </form>
+      </div>
+</td>
+  </tr>
+</table>
+
+<footer>
+  
+    <span class="link_footer"><a href="#link" class="about">• About</a></span>
+    <span class="link_footer"><a href="#link" class="contact">• Contact Us</a></span>
+    <span class="link_footer"><a href="#link" class="it-admins">• IT Admins</a></span>
+    <span class="link_footer"><a href="#link" class="support">• Support</a></span><br>
+    <span class="link_footer"><a href="#link" class="privacy-policy">• Privacy</a></span>
+    <span class="link_footer"><a href="#link" class="terms-of-service">• Language</a></span><br><br>
+    <span class="link_footer"><a href="#link" class="terms-of-service">© E-Learning Inovatif 2019</a></span>
+
+</footer>
+
+</span>
+</body>
+</html>

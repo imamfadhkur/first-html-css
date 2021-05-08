@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buat Ujian</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url(image/background1.jpg);background-size: 100% 100%;background-attachment:fixed; font-family: arial">
+
+<img class="imageheader" src="image/header.png" alt="ini header">
+
+<div class="navbar">
+  <a href="halaman_utama_kedua.html">Depan</a> 
+  <a href="apa_yang_jatuh_tempo.html">Jatuh Tempo</a>
+  <a class="active" href="materi_dan_nilai_siswa+komentar.html">perpustakaan</a>
+  <a href="pesan_pribadi.html">Pesan</a>
+  <a href="download_jawaban_siswa_semua.html">Notifikasi</a>
+  <a style="border-right: 1px solid white;" href="bantuan.html">Bantuan</a>
+  <a style="float: right; border-right: 1px solid white;" href="login.html">Keluar</a>
+</div>
+
+<span class="halaman">
+  <div class="left">
+
+  	<fieldset class="fieldset1"> <img class="profil_um" src="image/profil.png">
+    </fieldset>
+  	<fieldset style="margin-bottom: 15px;" class="fieldset2"><br>Imam Fatih<br>Guru<br><br>High School in Magetan<br>
+  		<a href="profil.html"><br> lengkapi profil anda!</a><br>33% Lengkap
+    </fieldset>
+
+    <fieldset class="sidebarkiri2_um">
+      <font style="font-size: 30px;"><b> Your Class</b><hr></font>
+      <ol class="ola_um">
+        <a style="text-decoration: none;" href="materi_dan_nilai_siswa.html"><li>Struktir Data</li></a>
+        <a style="text-decoration: none;" href="materi_dan_nilai_siswa.html"><li>Dasar Pemrograman Web</li></a>
+      </ol>
+      <a class="button_sidebarkiri2_um" href="membuka_perkuliahan.html"> kelas baru</a>
+    </fieldset>
+
+  </div>
+  
+<div class="center_upod">
+
+  <h2>Silahkan Buat Test/Ujian Pada Kelas yang Anda Inginkan</h2><hr>
+  <form method="post" action="data.php">  
+      <label for="kelas"><b>Pilih Kelas &nbsp;: </b></label>
+      <select name="kelas" id="kelas" class="class_border">
+        <option value="1">Struktur Data</option>
+        <option value="2">Dasar Pemrograman Web</option>
+      </select><br><br>
+      <b>Nama Ujian : </b><input type="text" name="name_test" class="class_border" style="width: 178px;"><br><br>
+      <b>Buat Soal:</b><br>
+      <textarea style="height: 400px; border: 1px solid black;"></textarea><br><br>
+      <b>Tambahkan Catatan Kecil Pada Test Anda :</b><br><input class="catatan_kecil_bt" type="text" name="catatan_kecil"><br><br>
+      <label for="estimasi"><b>Estimasi Waktu Ujian:</b></label><br>
+      <select name="estimasi" id="kelas" class="class_border" style="width: 178px;">
+        <option>10 Menit</option>
+        <option>20 Menit</option>
+        <option>30 Menit</option>
+        <option>40 Menit</option>
+        <option>50 Menit</option>
+        <option>60 Menit</option>
+        <option>1 Jam 10 Menit</option>
+        <option>1 Jam 20 Menit</option>
+        <option>1 Jam 30 Menit</option>
+        <option>1 Jam 40 Menit</option>
+        <option>1 Jam 50 Menit</option>
+        <option>2 Jam</option>
+        <option>2 Jam 10 Menit</option>
+        <option>2 Jam 20 Menit</option>
+        <option>2 Jam 30 Menit</option>
+        <option>2 Jam 40 Menit</option>
+        <option>2 Jam 50 Menit</option>
+        <option>3 Jam</option>
+      </select><br><br>
+      <label><b>Ujian dimunculkan Pada:</b></label><br>
+      <input class="class_border" type="time" name="waktu_muncul">
+      <input class="class_border" type="date" name="tanggal_muncul">
+      <br><br><br><br><br><br>
+      <input type="submit" name="submit" value="Kirim" class="submit_bt">
+  </form>
+
+  </div>
+<footer>
+    <span class="link_footer"><a href="#link" class="about">• About</a></span>
+    <span class="link_footer"><a href="#link" class="contact">• Contact Us</a></span>
+    <span class="link_footer"><a href="#link" class="it-admins">• IT Admins</a></span>
+    <span class="link_footer"><a href="#link" class="support">• Support</a></span><br>
+    <span class="link_footer"><a href="#link" class="privacy-policy">• Privacy</a></span>
+    <span class="link_footer"><a href="#link" class="terms-of-service">• Language</a></span><br><br>
+    <span class="link_footer"><a href="#link" class="terms-of-service">© E-Learning Inovatif 2019</a></span>
+
+</footer>
+
+</span>
+</body>
+</html>

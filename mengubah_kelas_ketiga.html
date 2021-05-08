@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lihat postingan</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url(image/background1.jpg);background-size: 100% 100%;background-attachment:fixed; font-family: arial;">
+
+<img class="imageheader" src="image/header.png" alt="ini header">
+
+<div class="navbar">
+  <a class="active" href="halaman_utama_kedua.html">Depan</a> 
+  <a href="apa_yang_jatuh_tempo.html">Jatuh Tempo</a>
+  <a href="materi_dan_nilai_siswa.html">perpustakaan</a>
+  <a href="pesan_pribadi.html">Pesan</a>
+  <a href="download_jawaban_siswa.html">Notifikasi<span class="notifikasi_huk"><b> (6)</b></span></a>
+  <a style="border-right: 1px solid white;" href="bantuan.html">Bantuan</a>
+  <a style="float: right; border-right: 1px solid white;" href="login.html">Keluar</a>
+</div>
+
+<span class="halaman">
+  <div class="left">
+  	<fieldset class="fieldset1"> <img class="profil" src="image/profil.png">
+    </fieldset>
+  	<fieldset class="fieldset2"><br>Imam Fatih<br>Guru<br><br>Sekolah Tinggi di Magetan<br>
+  		<a href="profil.html"><br> lengkapi profil anda!</a><br>33% Lengkap
+    </fieldset>
+    <fieldset style="margin-top: 15px" class="sidebarkiri2_um">
+      <font style="font-size: 30px;"><b> Kelas Anda</b><hr></font>
+      <ol class="ola_um">
+        <li><a style="text-decoration: none;" href="materi_dan_nilai_siswa.html">Struktur Data</a>
+        <select style="width: 15px; display: inline;">
+          <option value="1"href = "mengubah_kode_kelas">Kelola Kelas</option>
+          <option value="2" href = "#">Hapus Kelas</option>
+        </select></li>
+    
+        <li><a style="text-decoration: none;" href="materi_dan_nilai_siswa.html">Dasar Pemrograman Web
+          <select style="width: 15px; display: inline;">
+          <option value="1"href="mengubah_kode_kelas">Kelola Kelas</option>
+          <option value="2"href="#" >Hapus Kelas</option>
+        </select></li>
+      </a></li>
+
+      </ol>
+      <a class="button_sidebarkiri2_um" href="membuka_perkuliahan.html"> kelas baru</a>
+    </fieldset>
+
+  </div>
+  
+<div class="mycenter">
+  <fieldset>
+  <h2 align="center"style="font-style: all;">Kelola Kelas Anda</h2><br><hr>
+
+  <a class="mycenter" href="#">Postingan</a>
+  <fieldset>
+    <table>
+      <tr><td rowspan="4"><img class="img_profil_huk" src="image/profil.png"></td></tr>
+      <tr><td><b>Imam Fatih</b> mengirim ke <b>Struktur Data</b><a class="leftubh" href="#"> Hapus</a></td></tr>
+      <tr><td>Guru di High School in Magetan</td></tr>
+      <tr><td><i>diposting pada 21.30 2/8/2019</i></td></tr>
+    </table>
+    <hr>
+    <h4>Linear Search dan Binary Search</h4>
+    Linear Search atau sequential search adalah sebuah metode pencarian data dengan cara membandingkan nilai yang dicari dengan nilai dari setiap elemen list, mulai dari elemen pertama
+ 
+  </fieldset>
+
+  <fieldset id="tugas1">
+    <table>
+      <tr><td rowspan="4"><img class="img_profil_huk" src="image/profil.png"></td></tr>
+      <tr><td><b>Imam Fatih</b> mengirim ke <b>Struktur Data</b><a class="leftubh" href="#">Hapus</a></td></tr>
+      <tr><td>Guru di High School in Magetan</td></tr>
+      <tr><td><i>diposting pada 21.30 3/8/2019</i></td></tr>
+    </table>
+    <hr>
+    <h4>Tugas 1     :::</h4>
+    <table class="tugas_huk">
+      <tr>
+        <td><p>&emsp;Buatlah list yang isinya 3 digit NIM terakhir dari seluruh mahasiswa di kelas struktur data 2E.<br></p>
+        <ul>
+          <li>Buat listnya terurut dari kecil ke besar</li>
+          <li>Apabila ada data yang sama, maka data kedua dari yang sama tersebut ditambah satu hingga tidak ada data yang sama</li>
+          <li>lakukan pencarian data dengan data yang dicari adalah 3 digit NIM terakhir kalian masing-masing.<br></li>
+        </ul>
+        Kumpulkan tugas dalam bentuk rar, beri nama dan NIM masing-masing. Upload di edmodo.
+      </td>
+      </tr>
+    </table><hr>
+
+  </fieldset>
+ 
+  <a href="mengubah_kode_kelas2.html">Back</a></fieldset>
+</div>
+  
+  
+
+</div>
+  <div class="rightubah">
+  	<fieldset>
+<h2 align="center"><font style="font-size: 30px" face="Arial">Ubah Kode Class</font></h2><hr>
+  <form action="submit.html" method="post">
+        <label for="fname"><font size="3" face="Arial">Masukkan Kode Kelas Awal :</font></label><br><br>
+        <input id="fname" name="fname" type="text" required size="30"><br><br><br>
+        <label for="lname"><font size="3" face="Arial">Masukkan Kode Kelas Akhir :</font></label><br><br>
+        <input id="lname" name="lname" type="text" required size="30"><br><br>
+        <input style="width: auto;" type="submit" value="submit form" name="button1">
+  </form>
+  	</fieldset>
+  </div>
+
+<footer>
+    <span class="link_footer"><a href="#link" class="about">• About</a></span>
+    <span class="link_footer"><a href="#link" class="contact">• Contact Us</a></span>
+    <span class="link_footer"><a href="#link" class="it-admins">• IT Admins</a></span>
+    <span class="link_footer"><a href="#link" class="support">• Support</a></span><br>
+    <span class="link_footer"><a href="#link" class="privacy-policy">• Privacy</a></span>
+    <span class="link_footer"><a href="#link" class="terms-of-service">• Language</a></span><br><br>
+    <span class="link_footer"><a href="#link" class="terms-of-service">© E-Learning Inovatif 2019</a></span>
+
+</footer>
+
+</span>
+</body>
+</html>
